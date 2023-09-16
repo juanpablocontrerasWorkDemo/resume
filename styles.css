@@ -1,0 +1,192 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+
+html, body {
+	width: 100%;
+	height: 300vh;
+}
+
+
+/* BODY */
+body {
+
+	/* grid */
+	display: grid;
+	grid-template-columns: 25vw 20vw 30vw auto;
+	grid-template-rows: 10vh 40vh 21vh 62vh 67vh 50vh auto;
+
+	/* fonts */
+	font-family: Georgia, serif;
+
+	/* lists */
+	list-style-position: inside;
+}
+
+
+/* color palette: https://i.pinimg.com/originals/47/13/a2/4713a2f599100237d4c24188462a13eb.png */
+.bb-wt {
+	background-color: #071529;
+	color: #E87D67;
+}
+
+.fn-ps {
+	background-color: #E87D67;
+	color: #071529;
+}
+
+
+
+.section-title {
+	background-color: #1F4046;
+	color: #E87D67;
+	padding: 1em 1em 0.3em 0.5em;
+}
+
+
+.section-body {
+	background-color: #C4CBC5;
+	color: #1F4046;
+	height: 100%;
+}
+
+.experience-item, .reference {
+	padding: 1em;
+}
+
+.item-date {
+	font-weight: bold;
+}
+
+#references {
+	text-align: center;
+}
+
+#references > .section-body{
+	background-color: #1F4046;
+	color: #EE6457;
+}
+
+.reference_name {
+	font-weight: bold;
+}
+
+
+/* PROFILE PICTURE and  PROFESSION */
+#profile-pic-and-profession {
+	grid-column-start: 2;
+  	grid-column-end: 3;
+  	grid-row-start: 2;
+  	grid-row-end: 3;
+}
+
+#profile-pic {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 60%;
+	padding: 0 0 0.75em 0;
+}
+
+#profession {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 60%;
+	font-size: 1.3em;
+	font-weight: bold;
+
+}
+
+
+
+/* FULL NAME*/
+#fullname {
+	grid-column-start: 3;
+  	grid-column-end: 4;
+  	grid-row-start: 2;
+  	grid-row-end: 3;
+
+  	font-size: 5em;
+	text-align: center;
+	color: #1F4046;
+}
+
+#fullname > span {
+	vertical-align: middle;
+}
+
+
+
+/* CONTACT INFO */
+#contact-info-container {
+	grid-column-start: 2;
+  	grid-column-end: 3;
+  	grid-row-start: 3;
+  	grid-row-end: 4;
+}
+
+#contact-details-header {
+	padding: 0 0.5em 0.3em 1em;
+	font-weight: bold;
+}
+
+.profile-contact-details {
+	padding: 0.3em 0.5em 0.3em 1em;
+}
+
+
+/* PROFILE SUMMARY */
+#profile-summary {
+	grid-column-start: 3;
+  	grid-column-end: 4;
+  	grid-row-start: 3;
+  	grid-row-end: 4;
+  	padding: 0 0.5em 0.3em 1em;
+  	text-align: justify;
+}
+
+
+
+
+
+/* EMPLOYMENT HISTORY */
+
+#employment-history{
+	grid-column-start: 2;
+  	grid-column-end: 4;
+  	grid-row-start: 4;
+  	grid-row-end: 5;
+}
+
+
+/* EDUCATION */
+
+#education {
+	grid-column-start: 2;
+  	grid-column-end: 4;
+  	grid-row-start: 5;
+  	grid-row-end: 6;
+}
+
+
+/* REFERENCES */
+
+#references {
+	grid-column-start: 2;
+  	grid-column-end: 4;
+  	grid-row-start: 6;
+  	grid-row-end: 7;
+}
+
+
+
+
+
+
+
+
+
